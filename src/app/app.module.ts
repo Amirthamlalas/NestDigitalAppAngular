@@ -14,6 +14,7 @@ import { EmployeeComponent } from './employee/employee.component';
 import { FormsModule } from '@angular/forms';
 import { EmployeeRegisterComponent } from './employee-register/employee-register.component';
 import { AddCourseComponent } from './add-course/add-course.component';
+import { AddFriendComponent } from './add-friend/add-friend.component';
 
 const myroute:Routes=[
   {
@@ -61,7 +62,8 @@ const myroute:Routes=[
     AdminComponent,
     EmployeeComponent,
     EmployeeRegisterComponent,
-    AddCourseComponent
+    AddCourseComponent,
+    AddFriendComponent
   ],
   imports: [
     BrowserModule,
