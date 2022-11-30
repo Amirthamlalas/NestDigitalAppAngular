@@ -16,6 +16,7 @@ import { EmployeeRegisterComponent } from './employee-register/employee-register
 import { AddCourseComponent } from './add-course/add-course.component';
 import { AddFriendComponent } from './add-friend/add-friend.component';
 import { EmployeeNavbarComponent } from './employee-navbar/employee-navbar.component';
+import { HttpClientModule } from '@angular/common/http'
 
 const myroute:Routes=[
   {
@@ -75,7 +76,8 @@ const myroute:Routes=[
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(myroute),
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
