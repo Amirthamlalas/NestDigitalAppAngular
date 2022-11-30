@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AdminComponent {
 
+  username=""
+  password=""
+
+  readValue=()=>{
+  let data:any={"username":this.username,"password":this.password}
+  console.log(data)
+  if (this.username=="admin" && this.password=="nestdigital") {
+    alert("success")
+  } else {
+    alert("fail")
+  }
+  }
 }

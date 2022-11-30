@@ -7,4 +7,21 @@ import { Component } from '@angular/core';
 })
 export class EmployeeComponent {
 
+  employeeId=""
+  password=""
+
+  employeeValue=()=>{
+
+    let data:any={"employeeId":this.employeeId,"password":this.password}
+    console.log(data)
+
+    if ((this.employeeId=="1122")&&(this.password=="12345")) {
+      alert("SUCCESS")
+      
+    } else {
+      alert("fail")
+    }
+  }
+
+
 }
