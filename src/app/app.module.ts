@@ -12,6 +12,7 @@ import { AboutComponent } from './about/about.component';
 import { AdminComponent } from './admin/admin.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { FormsModule } from '@angular/forms';
+import { EmployeeRegisterComponent } from './employee-register/employee-register.component';
 
 const myroute:Routes=[
   {
@@ -37,6 +38,10 @@ const myroute:Routes=[
   {
     path:"employee",
     component:EmployeeComponent
+  },
+  {
+    path:"newemployee",
+    component:EmployeeRegisterComponent
   }
 ]
 
@@ -49,7 +54,8 @@ const myroute:Routes=[
     ContactComponent,
     AboutComponent,
     AdminComponent,
-    EmployeeComponent
+    EmployeeComponent,
+    EmployeeRegisterComponent
   ],
   imports: [
     BrowserModule,
