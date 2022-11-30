@@ -10,6 +10,7 @@ import { GalaryComponent } from './galary/galary.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { AdminComponent } from './admin/admin.component';
+import { EmployeeComponent } from './employee/employee.component';
 
 const myroute:Routes=[
   {
@@ -31,6 +32,10 @@ const myroute:Routes=[
   {
     path:"admin",
     component:AdminComponent
+  },
+  {
+    path:"employee",
+    component:EmployeeComponent
   }
 ]
 
@@ -42,7 +47,8 @@ const myroute:Routes=[
     GalaryComponent,
     ContactComponent,
     AboutComponent,
-    AdminComponent
+    AdminComponent,
+    EmployeeComponent
   ],
   imports: [
     BrowserModule,
