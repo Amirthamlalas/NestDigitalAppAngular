@@ -15,6 +15,7 @@ import { FormsModule } from '@angular/forms';
 import { EmployeeRegisterComponent } from './employee-register/employee-register.component';
 import { AddCourseComponent } from './add-course/add-course.component';
 import { AddFriendComponent } from './add-friend/add-friend.component';
+import { EmployeeNavbarComponent } from './employee-navbar/employee-navbar.component';
 
 const myroute:Routes=[
   {
@@ -48,6 +49,10 @@ const myroute:Routes=[
   {
     path:"addcourse",
     component:AddCourseComponent
+  },
+  {
+    path:"addfriend",
+    component:AddFriendComponent
   }
 ]
 
@@ -63,7 +68,8 @@ const myroute:Routes=[
     EmployeeComponent,
     EmployeeRegisterComponent,
     AddCourseComponent,
-    AddFriendComponent
+    AddFriendComponent,
+    EmployeeNavbarComponent
   ],
   imports: [
     BrowserModule,
