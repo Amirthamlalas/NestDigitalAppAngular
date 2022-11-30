@@ -8,6 +8,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { GalaryComponent } from './galary/galary.component';
 import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
 
 const myroute:Routes=[
   {
@@ -21,6 +22,10 @@ const myroute:Routes=[
   {
     path:"contact",
     component:ContactComponent
+  },
+  {
+    path:"about",
+    component:AboutComponent
   }
 ]
 
@@ -30,7 +35,8 @@ const myroute:Routes=[
     HomePageComponent,
     NavbarComponent,
     GalaryComponent,
-    ContactComponent
+    ContactComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
