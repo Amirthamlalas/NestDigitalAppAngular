@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-employee',
@@ -9,6 +10,7 @@ export class EmployeeComponent {
 
   employeeId=""
   password=""
+  constructor(private route:Router){}
 
   employeeValue=()=>{
 
@@ -16,10 +18,10 @@ export class EmployeeComponent {
     console.log(data)
 
     if ((this.employeeId=="1122")&&(this.password=="12345")) {
-      alert("SUCCESS")
+      this.route.navigate(['/addcourse'])
       
     } else {
-      alert("fail")
+      alert("invalid input")
     }
   }
 
