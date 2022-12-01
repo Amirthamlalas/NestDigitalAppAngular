@@ -20,5 +20,7 @@ export class ApiService {
     return this.http.get("https://mylinkurcodesapp.herokuapp.com/getcourses")
   }
 
-  fetchFriend=()=>{}
+  fetchFriend=()=>{
+    return this.http.get("https://dummyapifriends.herokuapp.com/view")
+  }
 }
