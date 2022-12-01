@@ -1,0 +1,25 @@
+
+
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+            <div class="row g-3">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3" *ngFor="let i of data">
+        
+                    <div class="card border-dark mb-3">
+                        <div class="card-header">Name : {{i.name}}</div>
+                        <div class="card-body text-dark">
+                          <h5 class="card-title">Friend Name : {{i.friendName}}</h5>
+                          <h5>Nick Name : {{i.friendNickName}}</h5>
+                          <p class="card-text">Description : {{i.DescribeYourFriend}}</p>
+                        </div>
+                      </div>
+                
+                </div>
+
+                
+        
+        </div>
+    </div>
+</div>
