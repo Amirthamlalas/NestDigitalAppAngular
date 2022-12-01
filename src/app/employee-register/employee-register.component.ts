@@ -36,6 +36,26 @@ export class EmployeeRegisterComponent {
 
       console.log(data)
       alert("Registerd Successfully")
+      this.empid=""
+      this.firstname=""
+      this.lastname=""
+      this.houseno=""
+      this.housename=""
+      this.street=""
+      this.pin=""
+      this.district=""
+      this.state=""
+      this.country=""
+      this.mobile=""
+      this.email=""
+      this.parent=""
+      this.gender=""
+      this.highdegree=""
+      this.experience=""
+      this.joining=""
+      this.username=""
+      this.password=""
+      this.confirmpass=""
       
     } else {
 

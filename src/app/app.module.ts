@@ -18,7 +18,8 @@ import { AddFriendComponent } from './add-friend/add-friend.component';
 import { EmployeeNavbarComponent } from './employee-navbar/employee-navbar.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ViewCourseComponent } from './view-course/view-course.component';
-import { ViewFriendComponent } from './view-friend/view-friend.component'
+import { ViewFriendComponent } from './view-friend/view-friend.component';
+import { ViewNavbarComponent } from './view-navbar/view-navbar.component'
 
 const myroute:Routes=[
   {
@@ -82,7 +83,8 @@ const myroute:Routes=[
     AddFriendComponent,
     EmployeeNavbarComponent,
     ViewCourseComponent,
-    ViewFriendComponent
+    ViewFriendComponent,
+    ViewNavbarComponent
   ],
   imports: [
     BrowserModule,
